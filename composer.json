@@ -1,11 +1,11 @@
 {
-    "name": "paroxity/commando",
+    "name": "hcf-project/commando",
     "description": "A Command Framework virion for PocketMine-MP ",
     "type": "library",
     "license": "LGPL-3.0-only",
     "require": {
         "pocketmine/pocketmine-mp": "^5.36.0",
-        "muqsit/simple-packet-handler": "^0.1.5"
+        "muqsit/simple-packet-handler": "dev-pm5"
     },
     "autoload": {
         "psr-4": {"CortexPE\\Commando\\": ["src/CortexPE/Commando/"]}
